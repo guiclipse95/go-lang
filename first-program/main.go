@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	var nome string //string variable.
+	var name string //string variable.
 
 	welcome := "Welcome"
 
 	fmt.Printf("Enter your name: ")
-	fmt.Scanf("%s", &nome)
+	fmt.Scanf("%s", &name)
 
-	fmt.Printf("%s, %s!\n", welcome, nome)
+	fmt.Printf("%s, %s!\n", welcome, name)
 
 }
